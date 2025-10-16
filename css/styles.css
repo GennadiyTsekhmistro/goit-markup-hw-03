@@ -1,5 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
     color: 0;
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
