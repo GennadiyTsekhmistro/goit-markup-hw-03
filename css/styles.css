@@ -1,7 +1,7 @@
 body {
     font-family: "Raleway", "Raleway", sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #2e2f42;;
 }
 
 a {
@@ -10,3 +10,44 @@ a {
 ul {
   list-style: none;
 }
+
+header {
+  display: flex;
+  align-items: center;        /* вертикальне вирівнювання */
+  justify-content: space-between; /* розкине элементы по сторонах */
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* проміжок між WebStudio і списком навігації */
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px; /* проміжок між пунктами меню */
+}
+
+header address {
+  display: flex;
+  align-items: center;
+}
+
+header address ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px; /* проміжок між контактами */
+}
+
+
+display: flex;              /* Розміщує елементи в один ряд */
+  align-items: center;        /* Вирівнює по вертикалі */
+  justify-content: space-between; 
+
+  display: flex; /* делает элементы списка в ряд */
+  gap: 20px; /* промежуток между элементами, по желанию */
