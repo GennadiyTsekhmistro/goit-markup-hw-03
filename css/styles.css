@@ -13,26 +13,29 @@ ul {
 
 header {
   display: flex;
-  align-items: center;        /* вертикальне вирівнювання */
-  justify-content: space-between; /* розкине элементы по сторонах */
+  align-items: center;       /* Вертикальное выравнивание содержимого header */
+  justify-content: space-between; /* Разделить nav и address по краям */
+  padding: 24px 0;            /* Отступы сверху и снизу по 24 px */
+  gap: 24px;                  /* Промежуток между прямыми дочерними элементами header */
 }
 
 header nav {
   display: flex;
   align-items: center;
-  gap: 76px; /* проміжок між WebStudio і списком навігації */
+  gap: 76px; /* Промежуток между WebStudio и списком навигации */
 }
 
 header nav ul {
   display: flex;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 40px; /* проміжок між пунктами меню */
+  gap: 24px; /* Промежуток между пунктами меню */
 }
 
-header nav > a {
-  margin-left: 156px;
+header nav a {
+  margin: 24px 0; /* 24px сверху и снизу, справа и слева — 0 */
 }
 
 header address {
@@ -42,20 +45,49 @@ header address {
 
 header address ul {
   display: flex;
-  list-style: none;
+  align-items: center;
   margin: 0;
   padding: 0;
-  gap: 15px; /* проміжок між контактами */
+  gap: 24px; /* Промежуток между контактами */
 }
 
-address ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
+/* Если хочешь задать размер для “WebStudio” */
+.WebStudio {
+  display: inline-flex;      /* или flex / block, в зависимости от контекста */
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 24px;
+  margin-left: 156px;
+  margin-right: 76px;
 }
 
-address ul li {
-  margin: 0;
-  padding: 0;
+.Studio {
+  width: 48px;
+  height: 24px;
+}
+
+.Portfolio {
+  width: 66px;
+  height: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Contacts {
+  width: 67px;
+  height: 24px;
+}
+
+.mailto {
+  width: 153px;
+  height: 24px;
+  margin-right: 40px;
+  margin-left: 332px;
+}
+.tel {
+  width: 151px;
+  height: 24px;
+  margin-right: 156px;
+  white-space: nowrap;
 }
