@@ -1,7 +1,6 @@
 body {
-    font-family: "Raleway", "Raleway", sans-serif;
-    background-color: #f4f4f4;
-    color: #2e2f42;;
+  background-color: #f4f4f4;
+  color: #2e2f42;
 }
 
 a {
@@ -11,12 +10,13 @@ ul {
   list-style: none;
 }
 
+/* #region header */
 header {
   display: flex;
-  align-items: center;       /* Вертикальное выравнивание содержимого header */
+  align-items: center; /* Вертикальное выравнивание содержимого header */
   justify-content: space-between; /* Разделить nav и address по краям */
-  padding: 24px 0;            /* Отступы сверху и снизу по 24 px */
-  gap: 24px;                  /* Промежуток между прямыми дочерними элементами header */
+  padding: 24px 0; /* Отступы сверху и снизу по 24 px */
+  gap: 24px; /* Промежуток между прямыми дочерними элементами header */
 }
 
 header nav {
@@ -51,9 +51,8 @@ header address ul {
   gap: 24px; /* Промежуток между контактами */
 }
 
-/* Если хочешь задать размер для “WebStudio” */
-.WebStudio {
-  display: inline-flex;      /* или flex / block, в зависимости от контекста */
+.webstudio {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 115px;
@@ -62,19 +61,26 @@ header address ul {
   margin-right: 76px;
 }
 
-.Studio {
+.blue-part {
+  color: #5a4fcf;
+}
+
+.black-part {
+  color: #000080;
+}
+.studio {
   width: 48px;
   height: 24px;
 }
 
-.Portfolio {
+.portfolio {
   width: 66px;
   height: 24px;
   margin-left: 40px;
   margin-right: 40px;
 }
 
-.Contacts {
+.contacts {
   width: 67px;
   height: 24px;
 }
@@ -91,3 +97,40 @@ header address ul {
   margin-right: 156px;
   white-space: nowrap;
 }
+/* #endregion header */
+
+/* #region section1 */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #000080;
+  height: 600px;
+  width: 1440px;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.33;
+  margin: 188px 474px 48px 470px;
+  width: 496px;
+  height: 120px;
+}
+
+button {
+  width: 169px;
+  height: 56px;
+  background-color: #5a4fcf;
+  border: none;
+  padding: 0;
+  margin: 0 637px 188px 634px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+/* #endregion section1 */
+
