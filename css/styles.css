@@ -134,3 +134,36 @@ button {
 }
 /* #endregion section1 */
 
+/* #region section2 */
+.section2 {
+  display: flex;
+  align-items: center;
+  /*flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;*/
+  padding: 120px 0; /* Отступы сверху и снизу по 120 px */
+  gap: 24px; /* Промежуток между прямыми дочерними элементами */
+}
+
+.section2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px; /* Промежуток между пунктами списка */
+  padding: 0;
+  margin: 0;
+}
+
+.section2 h2 {
+  display: none;
+}
+
+.section2 li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  width: 272px;
+}
