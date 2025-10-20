@@ -135,6 +135,7 @@ button {
 /* #endregion section1 */
 
 /* #region section2 */
+
 .section2 {
   display: flex;
   align-items: center;
@@ -142,8 +143,7 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;*/
-  padding: 120px 0; /* Отступы сверху и снизу по 120 px */
-  gap: 24px; /* Промежуток между прямыми дочерними элементами */
+  margin: 120px 156px; /* Отступы сверху и снизу по 120 px */
 }
 
 .section2 ul {
@@ -182,3 +182,50 @@ button {
 .punctuality {
   margin-right: 24px;
 }
+/* #endregion section2 */
+
+/* #region section3 */
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* центрировать содержимое по горизонтали */
+}
+
+.section3 h2 {
+  /* центрируем заголовок */
+}
+
+.our_team {
+  text-align: center; /* центрируем заголовок */
+  margin-bottom: 72px; /* расстояние между заголовком и списком */
+  margin: 120px 639px 72px 639px;
+  width: 162px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  color: #2e2f42;
+}
+
+.section3 ul {
+  display: flex;
+  justify-content: center; /* расположить li по центру контейнера */
+  padding: 0;
+  margin: 232px 0 120px 0;
+  list-style: none;
+}
+
+.section3 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* центрировать содержимое внутри каждого li */
+  text-align: center; /* выравнивание текста внутри li */
+  width: 264px; /* как ты уже указал */
+}
+
+.img-mark-guerrero {
+  margin-right: 24px;
+  margin-left: 156px;
+}
+
+/* #endregion section3 */
