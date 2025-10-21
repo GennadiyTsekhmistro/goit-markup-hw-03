@@ -15,8 +15,8 @@ header {
   display: flex;
   align-items: center; /* Вертикальное выравнивание содержимого header */
   justify-content: space-between; /* Разделить nav и address по краям */
-  padding: 24px 0; /* Отступы сверху и снизу по 24 px */
-  gap: 24px; /* Промежуток между прямыми дочерними элементами header */
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 header nav {
@@ -41,14 +41,12 @@ header nav a {
 header address {
   display: flex;
   align-items: center;
+  
 }
 
 header address ul {
   display: flex;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  gap: 24px; /* Промежуток между контактами */
 }
 
 .webstudio {
@@ -68,35 +66,36 @@ header address ul {
 .black-part {
   color: #000080;
 }
-.studio {
-  width: 48px;
-  height: 24px;
-}
-
-.portfolio {
-  width: 66px;
-  height: 24px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
 
 .contacts {
   width: 67px;
   height: 24px;
 }
 
+.studio {
+  width: 48px;
+  height: 24px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.portfolio {
+  width: 66px;
+  height: 24px;
+}
+
 .mailto {
   width: 153px;
   height: 24px;
-  margin-right: 40px;
-  margin-left: 332px;
+  margin: 24px 40px 24px 332px;
 }
-.tel {
+
+  .tel {
   width: 151px;
   height: 24px;
-  margin-right: 156px;
-  white-space: nowrap;
+  margin: 24px 156px 24px 0;
 }
+   
 /* #endregion header */
 
 /* #region section1 */
@@ -138,12 +137,15 @@ button {
 
 .section2 {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: center; /* центрировать содержимое по горизонтали */
+
+  
   /*flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;*/
-  margin: 120px 156px; /* Отступы сверху и снизу по 120 px */
+  margin: 120px 0; /* Отступы сверху и снизу по 120 px */
 }
 
 .section2 ul {
@@ -192,10 +194,6 @@ button {
   align-items: center; /* центрировать содержимое по горизонтали */
 }
 
-.section3 h2 {
-  /* центрируем заголовок */
-}
-
 .our_team {
   text-align: center; /* центрируем заголовок */
   margin-bottom: 72px; /* расстояние между заголовком и списком */
@@ -213,6 +211,7 @@ button {
   padding: 0;
   margin: 232px 0 120px 0;
   list-style: none;
+  gap: 24px; /* промежуток между li */
 }
 
 .section3 li {
@@ -220,12 +219,33 @@ button {
   flex-direction: column;
   align-items: center; /* центрировать содержимое внутри каждого li */
   text-align: center; /* выравнивание текста внутри li */
-  width: 264px; /* как ты уже указал */
+  height: 380px; 
 }
 
-.img-mark-guerrero {
-  margin-right: 24px;
-  margin-left: 156px;
+.section3 li p {
+  margin-bottom: 120px;
+}
+
+.mark-guerrero {
+  margin: 0 24px 120px 156px;
+}
+
+.tom-ford{
+}
+
+.camila-garcia {
+  margin: 0 24px 120px 24px;
+}
+
+.daniel-wilson {
+  margin-right: 156px;
 }
 
 /* #endregion section3 */
+
+/* #region footer */
+footer {
+  display: flex;
+}
+
+/* #endregio footer */
