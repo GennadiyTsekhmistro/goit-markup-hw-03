@@ -107,7 +107,6 @@ header address ul {
   text-align: center;
   background-color: #000080;
   height: 600px;
-  width: 1440px;
 }
 
 h1 {
@@ -115,7 +114,7 @@ h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.33;
-  margin: 188px 474px 48px 470px;
+  margin: 188px 0 48px 0;
   width: 496px;
   height: 120px;
 }
@@ -125,8 +124,7 @@ button {
   height: 56px;
   background-color: #5a4fcf;
   border: none;
-  padding: 0;
-  margin: 0 637px 188px 634px;
+  margin-bottom: 188px;
   border-radius: 4px;
   color: white;
   cursor: pointer;
@@ -231,6 +229,7 @@ button {
 }
 
 .tom-ford{
+  color: #2e2f42;
 }
 
 .camila-garcia {
