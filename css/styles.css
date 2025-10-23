@@ -327,7 +327,39 @@ footer {
   color: #f8f8f8;
 }
 
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;     /* ← вирівнює весь контент по лівому краю */
+  margin-left: 156px;          /* ← один спільний відступ */
+}
+
 .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  width: 115px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  margin: 100px 0 16px 0;      /* ← прибрано margin-left, бо він тепер у .branding-block */
+}
+
+.growth {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  width: 264px;
+  height: 72px;
+  margin-bottom: 100px;
+}
+
+/* .logo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -351,5 +383,5 @@ footer {
   margin-left: 156px;
   width: 264px;
   height: 72px;
-}
+} */
 /* #endregion footer */
