@@ -1,6 +1,7 @@
 body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: #f4f4f4;
-  color: #2e2f42;
+  color: #2E2F42;
 }
 
 a {
@@ -151,6 +152,7 @@ button {
   flex-direction: row;
   gap: 10px;
   border-radius: 4px;
+  cursor: pointer;
   padding-block: 16px;
   padding-inline: 32px;
   width: 169px;
@@ -327,11 +329,11 @@ footer {
   color: #f8f8f8;
 }
 
-.footer-block {
+.block-logo-growth {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;     /* ← вирівнює весь контент по лівому краю */
-  margin-left: 156px;          /* ← один спільний відступ */
+  align-items: flex-start;     
+  margin-left: 156px;         
 }
 
 .logo {
@@ -345,7 +347,7 @@ footer {
   font-weight: 700;
   line-height: 1.16667;
   letter-spacing: 0.03em;
-  margin: 100px 0 16px 0;      /* ← прибрано margin-left, бо він тепер у .branding-block */
+  margin: 100px 0 16px 0;      
 }
 
 .growth {
@@ -359,29 +361,3 @@ footer {
   margin-bottom: 100px;
 }
 
-/* .logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-  width: 115px;
-  height: 24px;
-  margin: 100px 0 16px 156px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-}
-
-.growth {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  margin-bottom: 100px;
-  margin-left: 156px;
-  width: 264px;
-  height: 72px;
-} */
-/* #endregion footer */
