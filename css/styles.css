@@ -9,7 +9,6 @@ a {
 ul {
   list-style: none;
 }
-
 /* #region header */
 header {
   display: flex;
@@ -41,7 +40,6 @@ header nav a {
 header address {
   display: flex;
   align-items: center;
-  
 }
 
 header address ul {
@@ -90,16 +88,14 @@ header address ul {
   margin: 24px 40px 24px 332px;
 }
 
-  .tel {
+.tel {
   width: 151px;
   height: 24px;
   margin: 24px 156px 24px 0;
 }
-   
 /* #endregion header */
-
-/* #region section1 */
-.section1 {
+/* #region section-title */
+.section-title {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -129,37 +125,27 @@ button {
   color: white;
   cursor: pointer;
 }
-/* #endregion section1 */
-
-/* #region section2 */
-
-.section2 {
+/* #endregion section-title */
+/* #region section-strategy */
+.section-strategy {
   display: flex;
   flex-direction: column;
   align-items: center; /* центрировать содержимое по горизонтали */
-
-  
-  /*flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;*/
   margin: 120px 0; /* Отступы сверху и снизу по 120 px */
 }
 
-.section2 ul {
+.section-strategy ul {
   display: flex;
-  /* align-items: center; 
-  justify-content: center; */
   column-gap: 24px; /* Промежуток между пунктами списка */
   padding: 0;
   margin: 0;
 }
 
-.section2 h2 {
+.section-strategy h2 {
   display: none;
 }
 
-.section2 li {
+.section-strategy li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -182,11 +168,9 @@ button {
 .punctuality {
   margin-right: 24px;
 }
-/* #endregion section2 */
-
-/* #region section3 */
-
-.section3 {
+/* #endregion section-strategy */
+/* #region section-fotos */
+.section-fotos {
   display: flex;
   flex-direction: column;
   align-items: center; /* центрировать содержимое по горизонтали */
@@ -203,7 +187,7 @@ button {
   color: #2e2f42;
 }
 
-.section3 ul {
+.section-fotos ul {
   display: flex;
   justify-content: center; /* расположить li по центру контейнера */
   padding: 0;
@@ -212,39 +196,73 @@ button {
   gap: 24px; /* промежуток между li */
 }
 
-.section3 li {
+.section-fotos li {
   display: flex;
   flex-direction: column;
   align-items: center; /* центрировать содержимое внутри каждого li */
   text-align: center; /* выравнивание текста внутри li */
-  height: 380px; 
+  height: 380px;
 }
 
-.section3 li p {
+.section-fotos li p {
   margin-bottom: 120px;
 }
 
 .mark-guerrero {
   margin: 0 24px 120px 156px;
+  color: #2e2f42;
 }
 
-.tom-ford{
+.tom-ford {
   color: #2e2f42;
 }
 
 .camila-garcia {
   margin: 0 24px 120px 24px;
+  color: #2e2f42;
 }
 
 .daniel-wilson {
   margin-right: 156px;
+  color: #2e2f42;
 }
-
-/* #endregion section3 */
-
+/* #endregion section-fotos */
 /* #region footer */
 footer {
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  background-color: #000080;
+  width: 100%;
+  height: 312px;
 }
 
-/* #endregio footer */
+.cloud-part {
+  color: #f8f8f8;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 24px;
+  margin: 22px 0 16px 156px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.growth {
+  color: #f8f8f8;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 100px;
+  margin-left: 156px;
+  width: 264px;
+  height: 72px;
+}
+
+/* #endregion footer */
