@@ -48,6 +48,11 @@ header address ul {
   align-items: center;
 }
 
+address a:hover,
+address a:focus {
+  color: #404bbf;
+}
+
 .webstudio {
   display: flex;
   align-items: center;
@@ -101,7 +106,7 @@ header address ul {
 }
 
 .mailto {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -112,7 +117,7 @@ header address ul {
 }
 
 .tel {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
