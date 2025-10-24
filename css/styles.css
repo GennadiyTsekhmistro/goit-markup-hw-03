@@ -125,6 +125,7 @@ address a:focus {
   width: 151px;
   height: 24px;
   margin: 24px 156px 24px 0;
+  white-space: nowrap;
 }
 /* #endregion header */
 /* #region section-title */
