@@ -12,25 +12,14 @@ ul {
 }
 /* #region header */
 .main-header {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
-/* Навігація */
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
 .nav-list {
-  display: flex;
-  align-items: center;
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .nav-link {
@@ -40,11 +29,13 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
-  padding: 24px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-list .nav-link:hover {
+  color: #404bbf;
+}
+
+.nav-list .nav-link:focus {
   color: #404bbf;
 }
 
@@ -71,11 +62,8 @@ ul {
 }
 
 .contact-list {
-  display: flex;
-  align-items: center;
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .email-link,
@@ -86,7 +74,6 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  padding: 24px;
 }
 
 .email-link:hover,
@@ -98,9 +85,6 @@ ul {
 /* #endregion header */
 /* #region section-title */
 .section-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: center;
   background-color: #2e2f42;
@@ -117,10 +101,7 @@ ul {
 }
 
 button {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: row;
   cursor: pointer;
   padding-block: 16px;
   padding-inline: 32px;
@@ -145,27 +126,15 @@ button {
 /* #endregion section-title */
 /* #region section-strategy */
 .section-strategy {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* центрировать содержимое по горизонтали */
   margin: 120px 0; /* Отступы сверху и снизу по 120 px */
 }
 
 .section-strategy ul {
-  display: flex;
   column-gap: 24px; /* Промежуток между пунктами списка */
-  padding: 0;
   margin: 0;
 }
 
-.section-strategy h2 {
-  display: none;
-}
-
 .section-strategy li {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
   text-align: left;
 }
@@ -213,10 +182,7 @@ button {
 /* #endregion section-strategy */
 /* #region section-fotos */
 .section-fotos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #F4F4FD;
+  background-color: #FFFFFF; /* белый фон для секции */
 }
 
 .our_team {
@@ -234,21 +200,14 @@ button {
 }
 
 .section-fotos ul {
-  display: flex;
   justify-content: center;
-  padding: 0;
   margin: 232px 0 120px 0;
   list-style: none;
   background-color: #FFFFFF;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .section-fotos li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-  height: 380px;
 }
 
 .section-fotos li p {
@@ -320,13 +279,9 @@ button {
 /* #region footer */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
 }
 
 .block-logo-growth {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -341,8 +296,15 @@ button {
   color: #f4f4fd;
 }
 
-.logo {
+.logo-web-studio {
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .attract-sell-grow {
