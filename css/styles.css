@@ -225,6 +225,10 @@ button {
   color: #434455;
 }
 
+.foto-li {
+  background-color: #FFFFFF;
+}
+
 .mark-guerrero {
   margin: 0 24px 120px 156px;
   color: #2e2f42;
@@ -238,10 +242,7 @@ button {
   margin-right: 156px;
 }
 
-.mark-title,
-.tom-title,
-.camila-title,
-.daniel-title {
+.foto-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -251,10 +252,7 @@ button {
   margin-bottom: 8px;
 }
 
-.mark-text,
-.tom-text,
-.camila-text,
-.daniel-text {
+.foto-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
