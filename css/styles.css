@@ -314,7 +314,7 @@ button {
   justify-content: center;
 }
 
-.logofooter {
+.logo-footer-webstudio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -325,10 +325,14 @@ button {
   text-decoration: none;
 }
 
-.footer-text {
+.cloud-part-growth {
+  color: #f4f4fd;
+}
+
+.footer-text-promotion {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #F4F4FD;
   max-width: 264px;
   margin-top: 16px;
 }
