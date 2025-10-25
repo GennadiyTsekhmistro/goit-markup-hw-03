@@ -6,47 +6,26 @@ ul {
   list-style: none;
 }
 /* #region header */
-header {
+.main-header {
   display: flex;
-  align-items: center; /* Вертикальное выравнивание содержимого header */
-  justify-content: space-between; /* Разделить nav и address по краям */
+  align-items: center;
+  justify-content: space-between;
   margin-top: 24px;
   margin-bottom: 24px;
 }
 
-header nav {
+/* Навігація */
+.main-nav {
   display: flex;
   align-items: center;
 }
 
-header nav ul {
+.nav-list {
   display: flex;
   align-items: center;
   list-style: none;
   margin: 0;
-}
-
-header nav a {
-  margin: 24px 0; /* 24px сверху и снизу, справа и слева — 0 */
-}
-
-header address {
-  display: flex;
-  align-items: center;
-}
-
-header address ul {
-  display: flex;
-  align-items: center;
-}
-
-.webstudio {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  margin-left: 156px;
-  margin-right: 76px;
+  padding: 0;
 }
 
 .nav-link {
@@ -55,33 +34,61 @@ header address ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
+  padding: 24px;
 }
 
-.studio {
-  margin-left: 40px;
-  margin-right: 40px;
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
 }
 
-address {
+/* Логотип */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  margin-right: 76px;
+}
+
+.cloud-part {
+  color: #2e2f42;
+}
+
+/* Адреса */
+.contact-block {
   font-style: normal;
 }
 
-.email-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  margin: 24px 40px 24px 332px;
+.contact-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.phone_number {
+.email-link,
+.phone-number {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin: 24px 156px 24px 0;
+  text-decoration: none;
+  padding: 24px;
+}
+
+.email-link:hover,
+.email-link:focus,
+.phone-number:hover,
+.phone-number:focus {
+  color: #404bbf;
 }
 /* #endregion header */
 /* #region section-title */
@@ -116,6 +123,7 @@ button {
 }
 
 .order-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -203,7 +211,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #F4F4FD;
 }
 
 .our_team {
@@ -226,6 +234,8 @@ button {
   padding: 0;
   margin: 232px 0 120px 0;
   list-style: none;
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-fotos li {
@@ -270,6 +280,25 @@ button {
 .daniel-wilson {
   margin-right: 156px;
 }
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.feature-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-bottom: 120px;
+}
 /* #endregion section-fotos */
 
 /* #region portfolio */
@@ -281,23 +310,6 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
-
-.portfolio-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-
-.portfolio-category {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
 }    
 /* #endregion portfolio */
 /* #region footer */
@@ -307,24 +319,10 @@ button {
 }
 
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
   text-decoration: none;
 }
 
-.cloud-part {
-  color: #f4f4fd;
-}
-
 .growth {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #F4F4FD; 
   max-width: 264px;
   margin-top: 16px;
 }

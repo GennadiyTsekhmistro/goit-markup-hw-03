@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="modern-normalize.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="" class="logo">
-  WEB<span class="cloud-part">STUDIO</span>
-        </a>
-        <ul>
+      <nav class="main-heager">
+        <a href="" class="logo"> WEB<span class="cloud-part">STUDIO</span> </a>
+        <ul class="nav-list">
           <li><a href="" class="nav-link">Contacts</a></li>
           <li><a href="" class="nav-link">Studio</a></li>
           <li><a href="" class="nav-link">Portfolio</a></li>
         </ul>
       </nav>
 
-      <address>
-        <ul>
+      <address class="contact-block">
+        <ul class="contact-list">
           <li>
             <a href="mailto:info@devstudio.com" class="email-link"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="phone_number">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="phone_number"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
@@ -43,7 +47,7 @@
     <main>
       <section class="section-title">
         <h1 class="main-title">
-          Effective Solutions<br>
+          Effective Solutions<br />
           for Your Business
         </h1>
         <button type="button" class="order-btn">Order Service</button>
@@ -59,23 +63,26 @@
               perfect and creative solution.
             </p>
           </li>
+
           <li class="punctuality">
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="feature-title">Punctuality</h3>
+            <p class="feature-text">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
+
           <li class="diligence">
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="feature-title">Diligence</h3>
+            <p class="feature-text">
               Research and confirm brands with the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
+
           <li class="technologies">
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="feature-title">Technologies</h3>
+            <p class="feature-text">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -91,98 +98,124 @@
               src="./images/img-Mark-Guerrero.jpg"
               alt="Mark Guerrero"
               class="img-mark-guerrero"
-              width="264">
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+              width="264"
+            />
+            <h3 class="feature-title">Mark Guerrero</h3>
+            <p class="feature-text">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/img-Tom-Ford.jpg" alt="Tom Ford" width="264">
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+          <li class="tom-ford">
+            <img src="./images/img-Tom-Ford.jpg" alt="Tom Ford" width="264" />
+            <h3 class="feature-title">Tom Ford</h3>
+            <p class="feature-text">Frontend Developer</p>
           </li>
           <li class="camila-garcia">
             <img
               src="./images/img-Camila-Garcia.jpg"
               alt="Camila Garcia"
-              width="264">
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+              width="264"
+            />
+            <h3 class="feature-title">Camila Garcia</h3>
+            <p class="feature-text">Marketing</p>
           </li>
           <li class="daniel-wilson">
             <img
               src="./images/img-Daniel-Wilson.jpg"
               alt="Daniel Wilson"
-              width="264">
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+              width="264"
+            />
+            <h3 class="feature-title">Daniel Wilson</h3>
+            <p class="feature-text">UI Designer</p>
           </li>
         </ul>
       </section>
-   <!-- #region portfolio -->
+      <!-- #region portfolio -->
       <section class="portfolio-section">
-  <h2 class="section-title">Our Portfolio</h2>
-  <ul class="portfolio-list">
-    <li class="portfolio-item">
-      <img src="./images/banking-app.jpeg" alt="Banking App preview" width="360">
-      <div class="portfolio-description">
-        <h3 class="portfolio-title">Banking App</h3>
-        <p class="portfolio-category">App</p>
-      </div>
-    </li>
+        <h2 class="section-title">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img
+              src="./images/banking-app.jpeg"
+              alt="Banking App preview"
+              width="360"
+            />
+            <div class="portfolio-description">
+              <h3 class="feature-title">Banking App</h3>
+              <p class="feature-text">App</p>
+            </div>
+          </li>
 
-    <li class="portfolio-item">
-      <img src="./images/cashless-payment.jpeg" alt="Cashless Payment preview" width="360">
-      <div class="portfolio-description">
-        <h3 class="portfolio-title">Cashless Payment</h3>
-        <p class="portfolio-category">Marketing</p>
-      </div>
-    </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/cashless-payment.jpeg"
+              alt="Cashless Payment preview"
+              width="360"
+            />
+            <div class="portfolio-description">
+              <h3 class="feature-title">Cashless Payment</h3>
+              <p class="feature-text">Marketing</p>
+            </div>
+          </li>
 
-    <li class="portfolio-item">
-      <img src="./images/meditation-app.jpeg" alt="Meditation App preview" width="360">
-      <div class="portfolio-description">
-        <h3 class="portfolio-title">Meditation App</h3>
-        <p class="portfolio-category">App</p>
-      </div>
-    </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/meditation-app.jpeg"
+              alt="Meditation App preview"
+              width="360"
+            />
+            <div class="portfolio-description">
+              <h3 class="feature-title">Meditation App</h3>
+              <p class="feature-text">App</p>
+            </div>
+          </li>
 
-    <li class="portfolio-item">
-      <img src="./images/taxi-service.jpeg" alt="Taxi Service preview" width="360">
-      <div class="portfolio-description">
-        <h3 class="portfolio-title">Taxi Service</h3>
-        <p class="portfolio-category">Marketing</p>
-      </div>
-    </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/taxi-service.jpeg"
+              alt="Taxi Service preview"
+              width="360"
+            />
+            <div class="portfolio-description">
+              <h3 class="feature-title">Taxi Service</h3>
+              <p class="feature-text">Marketing</p>
+            </div>
+          </li>
 
-    <li class="portfolio-item">
-      <img src="./images/screen-illustrations.jpeg" alt="Screen Illustrations preview" width="360">
-      <div class="portfolio-description">
-        <h3 class="portfolio-title">Screen Illustrations</h3>
-        <p class="portfolio-category">Design</p>
-      </div>
-    </li>
+          <li class="portfolio-item">
+            <img
+              src="./images/screen-illustrations.jpeg"
+              alt="Screen Illustrations preview"
+              width="360"
+            />
+            <div class="portfolio-description">
+              <h3 class="feature-title">Screen Illustrations</h3>
+              <p class="feature-text">Design</p>
+            </div>
+          </li>
 
-    <li class="portfolio-item">
-      <img src="./images/online-courses.jpeg" alt="Online Courses preview" width="360">
-      <div class="portfolio-description">
-        <h3 class="portfolio-title">Online Courses</h3>
-        <p class="portfolio-category">Marketing</p>
-      </div>
-    </li>
-  </ul>
-</section>
-       <!-- #endregion portfolio -->
-    </main> 
+          <li class="portfolio-item">
+            <img
+              src="./images/online-courses.jpeg"
+              alt="Online Courses preview"
+              width="360"
+            />
+            <div class="portfolio-description">
+              <h3 class="feature-title">Online Courses</h3>
+              <p class="feature-text">Marketing</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- #endregion portfolio -->
+    </main>
 
     <footer class="footer">
-      <div class="block-logo-growth">
+      <div class="block-logo">
         <a class="logo" href="./index.html">
-          <span class="blue-part">WEB</span
-          ><span class="cloud-part">STUDIO</span>
+          WEB<span class="cloud-part">STUDIO</span>
         </a>
         <p class="growth">
-          Increase the flow of customers and<br>
-          sales for your business with digital<br>
+          Increase the flow of customers and<br />
+          sales for your business with digital<br />
           marketing & growth solutions.
         </p>
       </div>
