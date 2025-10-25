@@ -23,20 +23,12 @@ ul {
 }
 
 .nav-link {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
-  line-height: 1.5;
+  /* line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #2e2f42; */
   text-decoration: none;
-}
-
-.nav-list .nav-link:hover {
-  color: #404bbf;
-}
-
-.nav-list .nav-link:focus {
-  color: #404bbf;
 }
 
 /* Логотип */
@@ -50,10 +42,6 @@ ul {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
-}
-
-.cloud-part {
-  color: #2e2f42;
 }
 
 /* Адреса */
@@ -182,7 +170,7 @@ button {
 /* #endregion section-strategy */
 /* #region section-fotos */
 .section-fotos {
-  background-color: #FFFFFF; /* белый фон для секции */
+  background-color: #F4F4FD; /* белый фон для секции */
 }
 
 .our_team {
@@ -203,7 +191,6 @@ button {
   justify-content: center;
   margin: 232px 0 120px 0;
   list-style: none;
-  background-color: #FFFFFF;
 }
 
 .section-fotos li {
@@ -245,7 +232,10 @@ button {
   margin-right: 156px;
 }
 
-.feature-title {
+.mark-title,
+.tom-title,
+.camila-title,
+.daniel-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -255,7 +245,10 @@ button {
   margin-bottom: 8px;
 }
 
-.feature-text {
+.mark-text,
+.tom-text,
+.camila-text,
+.daniel-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -266,15 +259,52 @@ button {
 /* #endregion section-fotos */
 
 /* #region portfolio */
-.section-title {
-  font-size: 36px;
-  line-height: 1.11;
+.portfolio-section {
+  background-color: #fff;
+  padding: 120px 0;
+}
+
+.portfolio-title {
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+  font-size: 36px;
+  font-weight: 700;
   color: #2e2f42;
   margin-bottom: 72px;
-}    
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-item {
+  width: 264px;
+  text-align: center;
+}
+
+.portfolio-name {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.portfolio-role {
+  font-size: 16px;
+  color: #434455;
+  margin-bottom: 8px;
+}
+
+.portfolio-description {
+  font-size: 14px;
+  color: #555;
+}
 /* #endregion portfolio */
 /* #region footer */
 .footer {
@@ -310,8 +340,5 @@ button {
 .attract-sell-grow {
   max-width: 264px;
   margin-top: 16px;
-  line-height: 1.5;
-  color: #F4F4FD;
-  letter-spacing: 0.02em;
 }
 /* #endregion footer */
