@@ -1,8 +1,3 @@
-body {
-  /* font-family: 'Roboto', 'Raleway', sans-serif;
-  background-color: #f4f4f4;
-  color: #2E2F42; */
-}
 
 a {
   text-decoration: none;
@@ -45,11 +40,6 @@ header address ul {
   align-items: center;
 }
 
-address a:hover,
-address a:focus {
-  /* color: #404bbf; */
-}
-
 .webstudio {
   display: flex;
   align-items: center;
@@ -57,15 +47,6 @@ address a:focus {
   flex-direction: row;
   margin-left: 156px;
   margin-right: 76px;
-}
-
-.logo {
-  /* text-transform: uppercase;
-  color: #5a4fcf; */
-}
-
-.cloud-part {
-  /* color: #000080; */
 }
 
 .nav-link {
