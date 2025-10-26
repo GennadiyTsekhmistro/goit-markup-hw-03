@@ -55,6 +55,10 @@ ul {
   font-style: normal;
 }
 
+.phone-block {
+  font-style: normal;
+}
+
 .email-link,
 .phone-number {
   font-weight: 400;
