@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455 ;
+  color: #434455;
   background-color: #fff;
 }
 
@@ -18,7 +18,7 @@ ul {
 }
 
 .icon-nav-style {
-  color: #2e2f42;   
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -60,8 +60,7 @@ ul {
   font-style: normal;
 }
 
-.email-link,
-.phone-number {
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -114,7 +113,7 @@ button {
 
 .order-btn:hover,
 .order-btn:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
   color: #ffffff;
 }
 /* #endregion section-title */
@@ -176,12 +175,12 @@ button {
 /* #endregion section-strategy */
 /* #region section-fotos */
 .section-fotos {
-  background-color: #F4F4FD; /* белый фон для секции */
+  background-color: #f4f4fd; /* белый фон для секции */
 }
 
 .our_team {
-  text-align: center; 
-  margin-bottom: 72px; 
+  text-align: center;
+  margin-bottom: 72px;
   margin: 120px 639px 72px 639px;
   font-weight: 700;
   font-size: 36px;
@@ -226,7 +225,7 @@ button {
 }
 
 .foto-li {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .mark-guerrero {
@@ -339,7 +338,7 @@ button {
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: #f4f4fd;
   max-width: 264px;
   margin-top: 16px;
 }
