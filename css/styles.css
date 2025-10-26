@@ -39,7 +39,7 @@ ul {
   color: #404bbf;
 }
 
-.cloud-part {
+.icon-link {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -316,22 +316,7 @@ button {
   justify-content: center;
 }
 
-.logo-footer-webstudio {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-}
-
-.cloud-part-growth {
-  color: #f4f4fd;
-}
-
-.footer-text-promotion {
+.footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
