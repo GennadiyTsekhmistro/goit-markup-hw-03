@@ -69,10 +69,8 @@ ul {
   text-decoration: none;
 }
 
-.email-link:hover,
-.email-link:focus,
-.phone-number:hover,
-.phone-number:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 /* #endregion header */
@@ -312,7 +310,7 @@ button {
 }
 /* #endregion portfolio */
 /* #region footer */
-.footer-logo {
+.footer-logo-cont {
   background-color: #2e2f42;
 }
 
@@ -343,3 +341,15 @@ button {
   margin-top: 16px;
 }
 /* #endregion footer */
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  margin-right: 76px;
+}
