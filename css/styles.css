@@ -35,7 +35,8 @@ ul {
   text-decoration: none;
 }
 
-:hover, :focus {
+.nav-link-header:hover,
+.nav-link-header:focus {
   color: #404bbf;
 }
 
@@ -320,7 +321,7 @@ button {
   justify-content: center;
 }
 
-.logo-footer-webstudio {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -329,6 +330,10 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+}
+
+.logo-accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
