@@ -23,7 +23,7 @@ ul {
 
 .nav-list {
   list-style: none;
-}}
+}
 
 .nav-link-header {
   font-weight: 500;
@@ -114,8 +114,6 @@ button {
 }
 /* #endregion section-title */
 /* #region section-strategy */
-.section-strategy {
-}
 
 .section-strategy ul {
   column-gap: 24px; /* Промежуток между пунктами списка */
