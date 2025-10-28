@@ -23,8 +23,7 @@ ul {
 
 .nav-list {
   list-style: none;
-  margin: 0;
-}
+}}
 
 .nav-link-header {
   font-weight: 500;
@@ -88,7 +87,6 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin: 188px 0 48px 0;
 }
 
 button {
@@ -117,12 +115,10 @@ button {
 /* #endregion section-title */
 /* #region section-strategy */
 .section-strategy {
-  margin: 120px 0; /* Отступы сверху и снизу по 120 px */
 }
 
 .section-strategy ul {
   column-gap: 24px; /* Промежуток между пунктами списка */
-  margin: 0;
 }
 
 .section-strategy li {
@@ -179,7 +175,6 @@ button {
 .our_team {
   text-align: center;
   margin-bottom: 72px;
-  margin: 120px 639px 72px 639px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -192,7 +187,6 @@ button {
 
 .section-fotos ul {
   justify-content: center;
-  margin: 232px 0 120px 0;
   list-style: none;
 }
 
@@ -227,12 +221,7 @@ button {
 }
 
 .mark-guerrero {
-  margin: 0 24px 120px 156px;
   color: #2e2f42;
-}
-
-.camila-garcia {
-  margin: 0 24px 120px 24px;
 }
 
 .daniel-wilson {
@@ -279,7 +268,6 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
-  margin: 0;
 }
 
 .portfolio-item {
