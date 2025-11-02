@@ -15,7 +15,7 @@ ul {
 
 .container {
   min-width: 1158px;
-  padding: 0 15px;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -33,7 +33,6 @@ p {
 header {
   border-bottom: 1px solid #e7e9fc;
 }
-
 
 .header-container {
   display: flex;
@@ -53,7 +52,6 @@ header {
 .icon-nav-style {
   color: #2e2f42;
 }
-
 
 img {
   display: block;
@@ -104,7 +102,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-
 }
 
 .contact-block {
@@ -122,7 +119,6 @@ img {
   padding: 24px 0;
 }
 
-
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
@@ -132,9 +128,9 @@ img {
 .section-title {
   display: flex;
   align-items: center;
-  min-width: 1158px;
   justify-content: center;
   text-align: center;
+  height: 600px;
   background-color: #2e2f42;
 }
 
@@ -177,10 +173,9 @@ button {
 /* #region section-strategy */
 .section-strategy {
   background-color: #fff; /* белый фон для секции */
-  padding: 80px 0 120px 0;
 }
 
-.section-strategy h2{
+.section-strategy h2 {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -195,10 +190,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px; 
+  gap: 24px;
   padding: 0;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 120px 156px 120px 156px;
 }
 
 .section-strategy li {
@@ -235,29 +229,30 @@ button {
 /* #endregion section-strategy */
 /* #region section-fotos */
 .section-fotos {
-  background-color: #f4f4fd; /* белый фон для секции */
+  background-color: #f4f4fd; /* фон для секции */
 }
 
 .our_team {
   text-align: center;
-  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  white-space: nowrap;
-  text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 
 .section-fotos ul {
-  justify-content: center;
-  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .section-fotos li {
   text-align: center;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-fotos li p {
@@ -282,8 +277,30 @@ button {
   color: #434455;
 }
 
+.section-fotos img {
+  display: block;
+  margin: 0 auto;
+}
+
+.section-fotos {
+  overflow: hidden;
+}
+
 .foto-li {
-  background-color: #ffffff;
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  padding-block: 0px 32px;
+  padding-inline: 0px;
+  overflow: hidden;
+}
+
+.foto-li img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .mark-guerrero {
@@ -327,17 +344,20 @@ button {
   font-size: 36px;
   font-weight: 700;
   color: #2e2f42;
+  margin-top: 120px;
   margin-bottom: 72px;
 }
 
 .portfolio-list {
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
+  display: flex;
+  gap: 24px;
+  justify-content: center; /* або flex-start */
+  margin-bottom: 72px;
 }
 
 .portfolio-item {
-  text-align: center;
+  text-align: left;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-name {
@@ -348,6 +368,7 @@ button {
   color: #2e2f42;
   margin-top: 32px;
   margin-bottom: 8px;
+  margin-left: 16px;
 }
 
 .portfolio-role {
@@ -356,6 +377,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  margin-left: 16px;
 }
 
 .portfolio-description {
@@ -368,6 +390,10 @@ button {
   background-color: #2e2f42;
 }
 
+.footer-logo-cont .container { 
+  padding-bottom: 100px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -377,7 +403,11 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-right: 76px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 16px;
+margin-left: 156px;
+padding: 5px;
 }
 
 .footer-text {
@@ -385,7 +415,8 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-top: 16px;
+  margin-left: 156px;
+  margin-bottom: 100px;
 }
 
 .icon-nav-footer {
