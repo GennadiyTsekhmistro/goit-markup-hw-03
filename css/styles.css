@@ -29,6 +29,10 @@ p {
   margin: 0;
 }
 
+.section {
+  padding-block: 120px;
+}
+
 /* #region header */
 header {
   border-bottom: 1px solid #e7e9fc;
@@ -351,8 +355,9 @@ button {
 .portfolio-list {
   display: flex;
   gap: 24px;
-  justify-content: center; /* або flex-start */
+  justify-content: center;
   margin-bottom: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-item {
