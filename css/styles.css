@@ -388,9 +388,6 @@ button {
 /* #region footer */
 .footer-logo-cont {
   background-color: #2e2f42;
-}
-
-.footer-logo-cont .container { 
   padding-bottom: 100px;
 }
 
