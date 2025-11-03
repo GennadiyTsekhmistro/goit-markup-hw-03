@@ -136,7 +136,12 @@ img {
   text-align: center;
   height: 600px;
   background-color: #2e2f42;
-  padding: 188px 0 188px 0;
+  padding: 0;
+  /* padding: 188px 0 188px 0; */
+}
+
+.container {
+  text-align: center;
 }
 
 .main-title {
@@ -146,8 +151,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-top: 188px;
-  margin-bottom: 48px;
+  margin: 0 auto 48px;
   max-width: 496px;
 }
 
