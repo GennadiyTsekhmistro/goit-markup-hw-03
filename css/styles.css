@@ -14,7 +14,7 @@ ul {
 }
 
 .container {
-  min-width: 1158px;
+  max-width: 1158px;
   padding: 0;
   margin: 0 auto;
 }
@@ -138,10 +138,6 @@ img {
   background-color: #2e2f42;
   padding: 0;
   /* padding: 188px 0 188px 0; */
-}
-
-.container {
-  text-align: center;
 }
 
 .main-title {
@@ -441,8 +437,8 @@ button {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-left: 156px;
   margin-bottom: 100px;
+  margin-left: 156px;
 }
 
 .icon-nav-footer {
