@@ -184,6 +184,8 @@ button {
 /* #region section-strategy */
 .section-strategy {
   background-color: #fff; /* белый фон для секции */
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .visually-hidden {
@@ -226,6 +228,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .feature-text {
@@ -243,6 +246,8 @@ button {
 /* #region section-fotos */
 .section-fotos {
   background-color: #f4f4fd; /* фон для секции */
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our_team {
