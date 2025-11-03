@@ -147,7 +147,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin: 0 auto 48px;
+  margin: 0 auto;
+  margin-top: 188px;
+  margin-bottom: 48px;
   max-width: 496px;
 }
 
