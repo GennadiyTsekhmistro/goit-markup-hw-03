@@ -338,6 +338,7 @@ button {
 /* #region portfolio */
 .portfolio-section {
   background-color: #fff;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-title {
@@ -358,7 +359,6 @@ button {
   row-gap: 48px;
   justify-content: center;
   margin-bottom: 72px;
-  border: 1px solid #e7e9fc;
 }
 
 .portfolio-item {
