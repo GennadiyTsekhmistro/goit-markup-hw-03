@@ -358,6 +358,7 @@ button {
   row-gap: 48px;
   justify-content: center;
   margin-bottom: 72px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-item {
